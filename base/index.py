@@ -54,10 +54,5 @@ if __name__ == '__main__':
         web.get('/', health_handler),
         web.post('/', http_handler)
     ])
-<<<<<<< HEAD
 
     web.run_app(app, host='0.0.0.0', port=port)
-=======
-    
-    web.run_app(app, host='0.0.0.0', port=port, handle_signals=False)
->>>>>>> 84d3c3cacca0f6e2618acb451d7030b3d1b439c2
